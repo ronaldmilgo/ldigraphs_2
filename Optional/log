@@ -1,0 +1,25 @@
+ESTIMATE of time to complete assignment: 13 hours
+
+Date   Time Started   Time Spent   Work Compeletd
+-----  ------------   -----------  ---------------
+12/5     7:00pm          2:00       Read and understood the assignment specification. Examined the starter code and reviewed its structure.
+12/6     2:00pm          6:00       Implemented ldigraph_bfs to handle shortest path computation using a queue-based approach. Debugged with 
+                                    test cases. Added cycle detection logic to ldigraph_dfs_visit using the LDIGRAPH_PROCESSING flag. 
+                                    Integrated this into DFS traversal.
+12/7     4:00pm          3:00       Implemented acyclic_longest_path using memoized DFS. Verified with acyclic graphs of varying complexity.
+12/8     7:00pm          3:00       Tried debugging my code because there were some testcases I was failing. Finally, debugged successfully.
+
+                        ------
+                         14:00      TOTAL time spent
+
+
+
+DISCUSSION
+
+This assignment was challenging on the part of distinguishing between cyclic and acyclic cases in the directed graphs. I had to find a way
+to integrate cycle detection in the functions and even introduced recursive functions that proved so helpful. This particular problem set 
+was instrumental in making graphs concept clear especially because it required attention to detail. Memory issues were not as much as previous
+psets hence debugging wasn't as stressful. Overally, this assignment was a great learning experience that solidified my understanding of 
+graph traversal algorithms, recursion, and state management. Successfully distinguishing between cyclic and acyclic cases, implementing 
+cycle detection, and handling edge scenarios provided a practical challenge that enhanced both my problem-solving skills and confidence in
+ working with complex graph structures. 
